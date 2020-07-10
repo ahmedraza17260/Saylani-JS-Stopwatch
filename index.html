@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wm-1705 StopWatch </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div>
+            <h2> Stop Watch </h2>
+        </div>
+        <br> <br>
+        <div class="d-inline">
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="msec">0</h1>
+        </div>
+        <br> <br> <br>
+        <div>
+            <button id="start" onclick="start()" type="button" class="btn btn-success">START</button>
+            <button id="stop" onclick="stop()" type="button" class="btn btn-warning">RESUME</button>
+            <button id="reset" onclick="reset()" type="button" class="btn btn-danger">RESET</button>
+        </div>
+        <br>
+        <br>
+        <div className="copyRight">
+            <h4> Powered by Ahmed Raza </h4>
+            <a href="https://github.com/ahmedraza17260" target="_blank">
+                <h3> Copyright &copy; 2020 Ahmed Raza </h3>
+            </a>
+            <h3> All Right Reserved </h3>
+        </div>
+        <br>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
